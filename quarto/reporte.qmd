@@ -7,6 +7,11 @@ format:
     toc: true          # Include table of contents
     toc-depth: 3       # Levels in TOC
 ---
+```{r}
+renv::install("maps")
+library(maps)
+map("world")
+```
 
 # Etapa 1. Conociendo el negocio
 
