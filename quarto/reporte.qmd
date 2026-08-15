@@ -8,7 +8,7 @@ format:
     toc-depth: 3       # Levels in TOC
 ---
 ```{r}
-renv::install("maps")
+
 library(maps)
 map("world")
 ```
